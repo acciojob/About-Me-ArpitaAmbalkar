@@ -1,1 +1,76 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="card">
+	<div class="s1">
+		<div class="top">
+			<img src="https://thumbs.dreamstime.com/b/girl-employee-cartoon-character-typing-keyboard-working-computer-girl-employee-cartoon-character-typing-keyboard-343547240.jpg" alt="image">
+			<ul>
+				<li><b>Name : </b>Arpita Ambalkar</li>
+				<li><b>Profile : </b>Software Devloper</li>
+				<li><b>Email : </b>abcd@gmail.com</li>
+			</ul>
+		</div>
+		<div class="bottom">
+			<h1>Skills</h1>
+			<div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">REACT CSS JAVASCRIPT</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">NODEJS MONGODB</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+			<div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">C/C++ PYTHON BATCH</span>
+                            <span class="skill-percentage">99</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="99%"></div>
+                        </div>
+                    </div>
+			<div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">AWS HADOOP</span>
+                            <span class="skill-percentage">93%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="93%"></div>
+                        </div>
+                    </div>
+		</div>
+	</div>
+	<div class="s2">
+		<h1>About me<div class="line"></div></h1>
+		
+		<p>I am a Computer Engineering student at Genba Sopanrao Moze College of Engineering, Pune, with a strong foundation in software development principles and programming. My passion lies in creating efficient, user-friendly applications and websites that solve real-world problems.
+
+With expertise in Java, C++, and web technologies like HTML, CSS, and JavaScript, I enjoy turning complex problems into simple, beautiful solutions. I'm a quick learner, adaptable to new technologies, and thrive in collaborative environments.</p>
+	</div>
+	</div>
+	<script>
+    // animate skill bars
+    document.querySelectorAll('.skill-progress').forEach(bar => {
+      let width = bar.getAttribute('data-width');
+      bar.style.width = width;
+    });
+	</script>
+</body>
